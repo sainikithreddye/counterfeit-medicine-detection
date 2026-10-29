@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset images (too large for version control)
+data/medicine_dataset/Train/
+data/medicine_dataset/Val/
+data/medicine_dataset/Test/
+
+# Trained models (large binary files)
+models/*.keras
+models/*.h5
+models/*.pb
+models/*.tflite
+!models/.gitkeep
+
+# Training results (regeneratable)
+results/*.json
+results/*.csv
+results/*.png
+results/*.txt
+!results/.gitkeep
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Python virtual environments
+.venv/
+.venv-linux/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset - keep local, do not upload
+data/
+
+# Local notebook outputs
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+!models/best_model.keras
